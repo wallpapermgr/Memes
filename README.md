@@ -1,11 +1,21 @@
-<h1 align=center>👋Welcome to the Memes project 👋</h1>
-<p align=center>
-
-
-## Author
-
-👤 **jason**
-
-##
-
-</p>
+## Memes
+  
+Memes wallpapers  
+  
+Automatic install/update:
+  
+```shell
+bash -c "$(curl -LSs https://github.com/wallpapermgr/Memes/raw/master/install.sh)"
+```
+  
+Manual install:
+  
+```shell
+git clone https://github.com/wallpapermgr/Memes "$HOME/.local/share/wallpapers/Memes"
+```
+  
+Manual update
+  
+```shell
+git -C "$HOME/.local/share/wallpapers/Memes" pull https://github.com/wallpapermgr/Memes  
+```
